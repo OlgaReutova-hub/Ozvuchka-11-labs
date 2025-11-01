@@ -24,27 +24,26 @@ Virtualenv — для изоляции зависимостей.
 ```bash 
 git clone https://github.com/username/voiceover-elevenlabs-bot.git
 cd voiceover-elevenlabs-bot
-```bash
 
 **Создайте и активируйте виртуальное окружение:**
-
+```bash 
 python -m venv venv
 venv\Scripts\activate     # Windows
 source venv/bin/activate  # macOS / Linux
 
 **Установите зависимости:**
-
+```bash 
 pip install -r requirements.txt
 
 
 **Добавьте файл key.py с вашими токенами:**
-
+```bash 
 bot_token = "ВАШ_TELEGRAM_BOT_TOKEN"
 elevenlabs_api_key = "ВАШ_ELEVENLABS_API_KEY"
 
 
 **Запустите бота:**
-
+```bash 
 python bot.py
 
 **Структура проекта**
