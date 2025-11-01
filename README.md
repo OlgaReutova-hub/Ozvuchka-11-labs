@@ -21,6 +21,7 @@ Virtualenv — для изоляции зависимостей.
 
 **Клонируйте репозиторий:**
 
+```bash 
 git clone https://github.com/username/voiceover-elevenlabs-bot.git
 cd voiceover-elevenlabs-bot
 
